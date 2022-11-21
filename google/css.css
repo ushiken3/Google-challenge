@@ -1,0 +1,43 @@
+.searchBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    width: 650px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 0 20px;
+  }
+  
+  .searchBox-input {
+    background-color: transparent;
+    border: none;
+    width: 650px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .searchbox2 {
+    border: 1px solid rgb(219, 219, 219);
+    width: fit-content;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    font-size: 13px;
+  }
+  
+  .box2 {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    font-size: 16px;
+    height: 30px;
+  }
